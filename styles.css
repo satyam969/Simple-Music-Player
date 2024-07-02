@@ -1,0 +1,135 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+overflow-x: hidden;
+    
+    
+}
+    
+.nav{
+
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+color: white;
+border-radius: 10px;
+align-items: center;
+padding:0% 3%;
+justify-content: space-between;}
+.txtbox{
+    display: flex;
+}
+.imgbox img{
+    border-radius: 1rem;
+}
+.imgbox{
+    display: flex;
+    align-items: center;
+}
+
+
+.bodybox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5%;
+    margin-bottom: 0.0%;
+}
+.leftsidebox{
+  padding: 2%;
+}
+.rightsidebox img{
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.rightsidebox{
+    background-color: aliceblue;
+    height: 8%;
+    width: 38%;
+border-radius: 10px;
+   margin: 4%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+transition: all 0.3s ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-shadow: white 5px 5px; */
+    box-shadow: px 2px  5px white ;
+    padding-right: 1%;
+}
+.rightsidebox:hover{
+transform: scale(1.05);
+}
+
+.container{
+    /* background-color: black; */
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 570px;
+    width: 1000px;
+    margin-top: 1.5%;
+   margin-left: 15%;
+   border-radius: 40px;
+    }
+    
+#head{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+
+.img img{
+    margin:5px;
+    height: 40px;
+    width: 40px;
+}
+.nav p{
+    margin:5px;
+}
+.leftsidebox{
+    color: white;
+    margin: 1%;
+    margin-left: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottombox{
+height: 13.44vh;
+   
+    display: flex;
+
+    align-items: end;
+    justify-content: center;
+
+
+}
+#timestamp {
+    width:90vw;
+    
+    
+}
+.timestamp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100vw;
+    background-color: black;
+    border-radius:10px;
+}
+
+.timestamp{
+    color: white;
+    transition: all 1s;
+    scroll-behavior:smooth;
+}
+
